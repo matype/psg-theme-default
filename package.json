@@ -10,9 +10,15 @@
     "type": "git",
     "url": "git://github.com/morishitter/psg-theme-default/git"
   },
-  "keywords": ["psg-theme","style-guide","postcss"],
+  "keywords": [
+    "psg-theme",
+    "style-guide",
+    "postcss"
+  ],
   "author": "Masaaki Morishita",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
 }

@@ -1,10 +1,16 @@
-var psgThemeDefault = require('../')
+var fs = require('fs')
 var test = require('tape')
 
-test('', function (t) {
-    var actual =
-    var expected =
+test('exists template.ejs', function (t) {
+    var actual = fs.existsSync('template.ejs')
 
-    t.same(actual, expedte)
+    t.same(actual, true)
+    t.end()
+})
+
+test('exists style.css', function (t) {
+    var actual = fs.existsSync('style.css')
+
+    t.same(actual, true)
     t.end()
 })
