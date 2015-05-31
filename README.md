@@ -1,6 +1,6 @@
 # psg-theme-default [![Build Status](https://travis-ci.org/morishitter/psg-theme-default.svg)](https://travis-ci.org/morishitter/psg-theme-default)
 
-Default theme of postcss-style-guide
+Default theme of [postcss-style-guide](https://github.com/morishitter/postcss-style-guide)
 
 ## Install
 
@@ -8,7 +8,11 @@ Default theme of postcss-style-guide
 $ npm install psg-theme-default
 ```
 
-## Example
+## Theme
+
+![Default style guide design](./default-theme.png)
+
+This theme is inspired by [http://codeguide.co/](http://codeguide.co/).
 
 ## License
 
