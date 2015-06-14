@@ -1,3 +1,7 @@
+## 0.2.1
+
+- Fix a bug
+
 ## 0.2.0
 
 - Support `processedCSS`
