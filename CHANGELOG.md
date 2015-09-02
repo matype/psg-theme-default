@@ -1,3 +1,7 @@
+## 0.3.0
+
+- Check if `rootStyle` exist
+
 ## 0.2.1
 
 - Fix a bug
