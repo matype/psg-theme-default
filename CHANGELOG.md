@@ -1,3 +1,8 @@
+## 0.4,0
+
+- Remove `rootStyle`
+- Add `showCode` option
+
 ## 0.3.0
 
 - Check if `rootStyle` exist
