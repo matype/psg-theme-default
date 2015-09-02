@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title><%= projectName %></title>
         <link rel="stylesheet" href="./default.css">
-        <style><%- codeStyle %><%- tmplStyle %><% if (rootStyle) { %><%- rootStyle %><% } %><%- processedCSS %></style>
+        <style><%- codeStyle %><%- tmplStyle %><%- processedCSS %></style>
     </head>
     <body>
         <header class="masthead">
@@ -13,10 +13,14 @@
         </header>
         <% maps.forEach(function (map) { %>
         <div class="section">
-            <div class="col"><%- map.html %></div>
-            <div class="col"><pre class="code"><code class="lang-css"><%- map.rule %></code></pre></div>
+            <% if (showCode) { %>
+              <div class="col"><%- map.html %></div>
+              <div class="col"><pre class="code"><code class="lang-css"><%- map.rule %></code></pre></div>
+            <% } else {%>
+              <div class="withoutCode"><%- map.html %></div>
+            <% } %>
         </div>
-        <% })%>
+        <% }) %>
     </body>
 </html>
 

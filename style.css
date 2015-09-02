@@ -139,6 +139,10 @@ pre code {
   background-color: #fff;
 }
 
+.withoutCode {
+  padding: 3rem;
+}
+
 /*
  * Masthead
  */
