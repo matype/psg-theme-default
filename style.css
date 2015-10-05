@@ -2,13 +2,8 @@
  * Scaffolding and type
  */
 
-html {
+html.psg-theme {
   font-size: 14px;
-}
-@media (max-width: 48rem) {
-  html {
-    font-size: 18px;
-  }
 }
 
 body {
@@ -25,19 +20,18 @@ a:hover {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4 {
-  margin: 0 0 1rem;
+h1[id], h2[id], h3[id], h4[id] {
+  margin-bottom: 1rem;
   font-weight: normal;
-  line-height: 1;
+  line-height: 1.4;
   color: #2a2a2a;
-  letter-spacing: -.05em;
 }
-h1 { font-size: 1.5rem; }
-h2 { font-size: 1.3rem; }
-h3 { font-size: 1rem; }
-h4 { font-size: .8rem }
+h1[id] { font-size: 1.5rem; }
+h2[id] { font-size: 1.3rem; }
+h3[id] { font-size: 1rem; }
+h4[id] { font-size: .8rem }
 
-p {
+p[id] {
   margin: 0 0 1rem;
 }
 .lead {
