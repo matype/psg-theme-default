@@ -1,3 +1,7 @@
+## 0.4.3
+
+- fix style
+
 ## 0.4.2
 
 - Update style
