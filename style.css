@@ -21,7 +21,7 @@ a:hover {
 }
 
 h1[id], h2[id], h3[id], h4[id] {
-  margin-bottom: 1rem;
+  margin: 2rem 0 1rem;
   font-weight: normal;
   line-height: 1.4;
   color: #2a2a2a;
