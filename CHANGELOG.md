@@ -1,3 +1,7 @@
+## 0.4.1
+
+- Fix styles
+
 ## 0.4,0
 
 - Remove `rootStyle`
