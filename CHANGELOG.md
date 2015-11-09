@@ -1,3 +1,7 @@
+## 0.5.0
+
+Return `__dirname` in index.js, thanks @watilde
+
 ## 0.4.3
 
 - fix style
