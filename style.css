@@ -103,6 +103,7 @@ pre code {
 }
 .col p {
   max-width: 40rem;
+  word-wrap:break-word;
 }
 .col + .col {
   border-top: 1px solid #dfe1e8;
