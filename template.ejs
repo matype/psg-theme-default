@@ -16,6 +16,11 @@
           </a>
 
           <ul class="psg-ComponentList">
+            <% if (colorPalette.length !== 0) { %>
+              <a href="#color-palette" class="psg-ComponentList__item">
+                <li>Color Palette</li>
+              </a>
+            <% } %>
             <% maps.forEach(function (map) { %>
               <% if (map.link.title !== null) { %>
                 <a href="#<%= map.link.id %>" class="psg-ComponentList__item">
@@ -37,7 +42,7 @@
           <div class="psg-container">
             <% if (colorPalette.length !== 0) { %>
             <section class="psg-section">
-                <h2 class="psg-component-title">Color Palette</h2>
+                <h2 id="color-palette" class="psg-component-title">Color Palette</h2>
                 <div class="psg-contents">
                   <div class="psg-colorPalette">
                     <% colorPalette.forEach(function (palette) { %>
@@ -52,6 +57,7 @@
                   </div>
                 </div>
             </section>
+            <hr class="psg-separator">
             <% } %>
             <% maps.forEach(function (map) { %>
                 <section class="psg-section">
