@@ -1,3 +1,7 @@
+## 1.0.0
+
+Renew default theme
+
 ## 0.5.1
 
 Fix styles.
