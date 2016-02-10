@@ -35,6 +35,24 @@
           </header>
 
           <div class="psg-container">
+            <% if (colorPalette.length !== 0) { %>
+            <section class="psg-section">
+                <h2 class="psg-component-title">Color Palette</h2>
+                <div class="psg-contents">
+                  <div class="psg-colorPalette">
+                    <% colorPalette.forEach(function (palette) { %>
+                    <div class="psg-colorBox">
+                        <div class="psg-colorBox__sample" style="background-color: <%= palette.color %>">
+                        </div>
+                        <div class="psg-colorBox__name">
+                            <%= palette.name %>
+                        </div>
+                    </div>
+                    <% }) %>
+                  </div>
+                </div>
+            </section>
+            <% } %>
             <% maps.forEach(function (map) { %>
                 <section class="psg-section">
                     <h2 id="<%= map.link.id %>" class="psg-component-title"><%= map.link.title %></h2>
