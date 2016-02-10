@@ -17,8 +17,19 @@
   ],
   "author": "Masaaki Morishita",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "suitcss-base": "^1.0.1"
+  },
   "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "cssnano": "^3.4.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-postcss": "^6.1.0",
+    "postcss-custom-properties": "^5.0.0",
+    "postcss-flexbugs-fixes": "^2.0.0",
+    "postcss-import": "^8.0.2",
+    "postcss-style-guide": "^0.12.1",
     "tape": "^4.0.0"
   }
 }

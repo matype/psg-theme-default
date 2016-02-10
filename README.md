@@ -12,8 +12,6 @@ $ npm install psg-theme-default
 
 ![Default style guide design](./default-theme.png)
 
-This theme is inspired by [http://codeguide.co/](http://codeguide.co/).
-
 ## License
 
 The MIT License (MIT)
