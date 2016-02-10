@@ -16,7 +16,7 @@
           </a>
 
           <ul class="psg-ComponentList">
-            <% if (colorPalette.length !== 0) { %>
+            <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
               <a href="#color-palette" class="psg-ComponentList__item">
                 <li>Color Palette</li>
               </a>
@@ -40,7 +40,7 @@
           </header>
 
           <div class="psg-container">
-            <% if (colorPalette.length !== 0) { %>
+            <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
             <section class="psg-section">
                 <h2 id="color-palette" class="psg-component-title">Color Palette</h2>
                 <div class="psg-contents">
