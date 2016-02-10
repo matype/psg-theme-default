@@ -1,3 +1,7 @@
+## 1.0.1
+
+Fixed a bug
+
 ## 1.0.0
 
 Renew default theme
