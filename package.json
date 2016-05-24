@@ -26,6 +26,7 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-postcss": "^6.1.0",
+    "postcss": "^5.0.21",
     "postcss-custom-properties": "^5.0.0",
     "postcss-flexbugs-fixes": "^2.0.0",
     "postcss-import": "^8.0.2",

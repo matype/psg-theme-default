@@ -22,3 +22,5 @@ test('return path', function (t) {
     t.same(index, _path)
     t.end()
 })
+
+require('./rendering');
