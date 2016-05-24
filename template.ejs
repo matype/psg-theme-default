@@ -64,7 +64,7 @@
                     <h2 id="<%= map.link.id %>" class="psg-component-title"><%= map.link.title %></h2>
 
                     <div class="psg-contents">
-                    <% if (!showCode) { %>
+                    <% if (showCode) { %>
                         <%- map.html %>
                     <% } %>
                     </div>
