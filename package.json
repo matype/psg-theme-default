@@ -1,6 +1,6 @@
 {
   "name": "psg-theme-default",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Default theme of postcss-style-guide",
   "main": "index.js",
   "scripts": {

@@ -1,3 +1,7 @@
+## 1.1.0
+
+not support `showCode` option of postcss-style-guide
+
 ## 1.0.1
 
 Fixed a bug
