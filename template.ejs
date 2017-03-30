@@ -17,17 +17,19 @@
 
           <ul class="psg-ComponentList">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
-              <a href="#color-palette" class="psg-ComponentList__item">
-                <li>Color Palette</li>
-              </a>
+              <li>
+                <a href="#color-palette" class="psg-ComponentList__item">
+                Color Palette
+                </a>
+              </li>
             <% } %>
             <% maps.forEach(function (map) { %>
               <% if (map.link.title !== null) { %>
-                <a href="#<%= map.link.id %>" class="psg-ComponentList__item">
-                  <li>
+                <li>
+                  <a href="#<%= map.link.id %>" class="psg-ComponentList__item">
                     <%= map.link.title %>
-                  </li>
-                </a>
+                  </a>
+                </li>
               <% } %>
             <% }) %>
           </ul>
